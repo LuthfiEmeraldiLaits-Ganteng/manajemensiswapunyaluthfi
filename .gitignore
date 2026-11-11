@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# next.js build output
+/.next/
+/out/
+
+# production
+/build
+
+# env files (rahasia, jangan pernah di-upload)
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
